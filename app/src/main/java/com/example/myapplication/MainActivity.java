@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 count--;
 
             } else if (view == btnSum){
-
+                  result = 0;
                   for (EditText editText : editTexts) {
                       result = result + Integer.parseInt(editText.getText().toString());
                   }
